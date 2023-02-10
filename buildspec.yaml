@@ -8,8 +8,7 @@ phases:
        
   build:
     commands:
-        # run build script
-        - npm run-script build
+        - npm start
      
 artifacts:
   # include all files required to run application
