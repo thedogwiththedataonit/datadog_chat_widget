@@ -1,8 +1,13 @@
+import { Routes, Route} from "react-router-dom";
+import WidgetMain from "./widget/WidgetMain";
+
+
 function App() {
   return (
-    <div>
-      <h2>Let's get started!</h2>
-    </div>
+    <Routes>
+          <Route path="/widget" element={<WidgetMain/> }  />
+
+    </Routes>
   );
 }
 
